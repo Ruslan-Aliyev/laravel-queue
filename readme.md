@@ -2,7 +2,7 @@
 
 ## Normal Queues
 
-https://github.com/Ruslan-Aliyev/laravel-rabbitmq/blob/master/queue.md
+https://github.com/Ruslan-Aliyev/laravel-queue/blob/master/queue.md
 
 ## RabbitMQ
 
