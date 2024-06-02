@@ -51,13 +51,28 @@ public function handle()
 
 ### Laravel > RabbitMQ
 
-**Install RabbitMQ:**
+**Install RabbitMQ on Windows:**
 
-Install and setup RabbitMQ (on Windows): https://www.youtube.com/watch?v=KhYiaEOrw7Q
+https://www.youtube.com/watch?v=KhYiaEOrw7Q
 
 Admin panel: http://localhost:15672 . Credentials guest/guest
 
 ![](/Illustrations/start_rabbitmq.png)
+
+**Install RabbitMQ on Mac:**
+
+- https://dyclassroom.com/howto-mac/how-to-install-rabbitmq-on-mac-using-homebrew
+- https://www.youtube.com/watch?v=oRIF1xKEI0I
+
+```
+brew install rabbitmq
+export PATH=$PATH:/usr/local/sbin
+rabbitmq-server
+```
+
+Admin panel: http://localhost:15672 . Credentials guest/guest
+
+"Cntr + C" to stop.
 
 **In Producer:**
 
@@ -84,8 +99,10 @@ Run `php artisan fire`, then run php `artisan queue:work` in another terminal, a
 
 ### Tutorials
 
-- https://www.youtube.com/watch?v=deG25y_r6OY
 - https://www.youtube.com/watch?v=K-xzRM6EKHg (Very Good)
+- https://www.youtube.com/watch?v=hfUIWe1tK8E
+- https://www.youtube.com/watch?v=o4qCdBR4gUM
+- https://www.youtube.com/watch?v=deG25y_r6OY
 - https://dev.to/dendihandian/rabbitmq-queue-driver-for-laravel-3ng4
 - https://www.youtube.com/watch?v=Cie5v59mrTg
 - https://www.youtube.com/watch?v=m-hNL87-lFo&list=PLcjapmjyX17hJZ-shzRMxTus0aMw0EVVB&index=8
