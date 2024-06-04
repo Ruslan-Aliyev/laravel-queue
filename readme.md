@@ -156,6 +156,8 @@ Todo
 
 ### Tutorials
 
+- https://stackoverflow.com/questions/53859327/how-to-configure-multiple-exchanges-in-laravel-queue-rabbitmq
+
 - https://www.youtube.com/playlist?list=PLt1SIbA8guusxiHz9bveV-UHs_biWFegU 
 - https://www.youtube.com/watch?v=e9D7_SQwdvc https://www.youtube.com/watch?v=udnX21__SuU 
 - https://medium.com/@subhamchbt/use-kafka-in-laravel-for-real-time-communication-between-servers-b6d5aeaddbea 
@@ -166,3 +168,5 @@ Todo
 - https://laravel-news.com/laravel-kafka-package 
 - https://github.com/aplr/kafkaesk 
 - https://medium.com/simform-engineering/integrating-apache-kafka-in-laravel-real-time-database-synchronization-with-debezium-connector-2506bc8f37a7 
+
+- https://www.youtube.com/watch?v=Sv0j3YCOnAY
